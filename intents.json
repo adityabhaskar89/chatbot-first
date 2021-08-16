@@ -1,0 +1,38 @@
+{"intents": [
+  {
+    "tag": "greetings",
+    "patterns": ["hello", "hi", "good day", "good morning", "wassup", "what's up?", "good evening", "hi"],
+    "responses": ["Hello!", "Hey!", "What can I do for you?"]
+  },
+  {
+    "tag": "goodbye",
+    "patterns": ["bye", "goodbye", "adios", "ciao", "see you later", "cya"],
+    "responses": ["Goodbye!", "Adios, muchacho!", "Bye Bye!", "Sad to see you go! :("]
+  },
+  {
+    "tag": "name",
+    "patterns": ["what is your name", "who are you?", "what should i call you?", "your good name?", "and you are?"],
+    "responses": ["I am DragonFruit_Kumar, your virtual assistant at Circo's"]
+  },
+  {
+    "tag": "age",
+    "patterns": ["how old are you?", "whats your age?", "are you old or young?"],
+    "responses": ["Circo's was founded in 2003 with the idea of spreading the taste of authentic pizza to every household"]
+  },
+  {
+    "tag": "timings",
+    "patterns": ["when are you open?", "what time do you open?", "are you open now?", "when can i come?"],
+    "responses": ["We are open 24/7, except on public holidays. You are welcome anytime!"]
+  },
+  {
+    "tag": "products",
+    "patterns": ["what do you sell?", "types of pizzas?", "menu?", "what pizzas do you sell?", "i want a pizza", "id like to buy something", "what are your products?"],
+    "responses": ["We sell a large variety of pizzas. You can get the full menu at menu.com/circo"]
+  },
+  {
+    "tag": "price",
+    "patterns": ["how much do your pizzas cost", "whats the price range?", "how much will i spend here?", "expensive or cheap?"],
+    "responses": ["Our pizzas range from $1 to $9. We also offer discounts, know more at circo.com/discounts"]
+  }
+]
+}
